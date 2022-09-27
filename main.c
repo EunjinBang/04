@@ -3,15 +3,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	int number_1;
-	int number_2;
-	printf("input two integers : ");
-	scanf("%i %i",&number_1, &number_2);
+	int second;
 	
-	printf("+ result is %d\n ", number_1 + number_2);
-	printf("- result is %d\n", number_1 - number_2);
-	printf("* result is %d\n", number_1 * number_2);
-	printf("/ result is %d\n", number_1 / number_2);
-	printf("%% result is %d\n", number_1 % number_2);
+	printf("input the second :");
+	scanf("%i", &second);
+	
+	printf("the time is %i : %i\n", second/60, second%60);
+	
 	return 0;
 }
